@@ -5,6 +5,9 @@ class Tarea:
 
     def obtenerNombre(self):
         return self.nombre
-
+    
     def estaLista(self):
         return self.listo
+    
+    def terminar(self):
+        self.listo = True
